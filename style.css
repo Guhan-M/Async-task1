@@ -1,0 +1,27 @@
+
+body{
+    display:flex;
+    flex-direction: column;
+     align-items: center;
+}
+
+.card{
+    margin: 25px;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    flex-wrap: wrap;
+}
+
+.input{
+    margin: 30px;
+    width:18%;
+    text-align: center;
+    border: 3px solid black;
+    border-radius: 10px;
+    height: 30%
+}
+.input:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
